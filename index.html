@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Islam Sebagai Agama, Bukan Identitas</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #d4b483;
+        }
+        .top-header {
+            background-color: #e77ad5;
+            color: rgb(8, 8, 8);
+            padding: 10px 0;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        .top-header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .brand {
+            display: flex;
+            align-items: center;
+        }
+        .brand img {
+            height: 50px;
+            border-radius: 35px;
+            margin-right: 15px;
+        }
+        .brand-text h1 {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        .brand-text p {
+            font-size: 14px;
+        }
+        .top-links a {
+            color: white;
+            text-decoration: none;
+            margin-left: 15px;
+            font-size: 14px;
+        }
+        .top-links a:hover {
+            text-decoration: underline;
+        }
+        nav {
+            background-color: #d638bc;
+            padding: 15px 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .nav-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .nav-menu {
+            display: flex;
+            list-style: none;
+        }
+        .nav-menu li {
+            position: relative;
+            margin-right: 20px;
+        }
+        .nav-menu li a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            padding: 5px 0;
+            display: block;
+            transition: all 0.3s ease;
+        }
+        .nav-menu li a:hover {
+            color: #f5bfec;
+        }
+        .nav-menu li ul {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background-color: #e77ad5;
+            width: 200px;
+            list-style: none;
+            padding: 10px;
+            border-radius: 0 0 4px 4px;
+            display: none;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        }
+        .nav-menu li:hover ul {
+            display: block;
+        }
+        .nav-menu li ul li {
+            margin: 10px 0;
+        }
+        .search-box {
+            display: flex;
+        }
+        .search-box input {
+            padding: 8px 10px;
+            border: none;
+            border-radius: 4px 0 0 4px;
+            width: 200px;
+        }
+        .search-box button {
+            padding: 8px 15px;
+            background-color: #f5bfec;
+            border: none;
+            border-radius: 0 4px 4px 0;
+            cursor: pointer;
+            color: #2c0325;
+            font-weight: bold;
+        }
+        .main-content {
+            max-width: 800px;
+            margin: 30px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .article-header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        h1 {
+            font-size: 29px;
+            color: #8a3168;
+            margin-bottom: 10px;
+        }
+        .author {
+            font-style: italic;
+            color: #7f8c8d;
+            margin-bottom: 20px;
+        }
+        .date {
+            color: #7f8c8d;
+            margin-bottom: 30px;
+        }
+        .image-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .article-image {
+            max-width: 190%;
+            height: 15000%;
+            border-radius: 5px;
+        }
+        .article-content {
+            text-align: justify;
+        }
+        .article-content p {
+            margin-bottom: 20px;
+        }
+        .source {
+            font-style: italic;
+            color: #7f8c8d;
+            margin-top: 30px;
+            border-top: 1px solid #eee;
+            padding-top: 20px;
+        }
+        footer {
+            background-color: #c549b0;
+            color: white;
+            padding: 30px 0;
+            margin-top: 40px;
+        }
+        .footer-content {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        .copyright {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 15px;
+        }
+        @media screen and (max-width: 768px) {
+            .top-header-content, .nav-container {
+                flex-direction: column;
+            }
+            .brand, .top-links, .nav-menu, .search-box {
+                margin-bottom: 10px;
+            }
+            .nav-menu {
+                flex-direction: column;
+                width: 100%;
+            }
+            .nav-menu li {
+                margin: 5px 0;
+                width: 100%;
+            }
+            .nav-menu li ul {
+                position: static;
+                display: block;
+                width: 100%;
+                margin-left: 20px;
+                box-shadow: none;
+                padding: 0;
+            }
+            .search-box {
+                width: 100%;
+            }
+            .search-box input {
+                width: 70%;
+            }
+            .search-box button {
+                width: 30%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="top-header">
+        <div class="container top-header-content">
+            <div class="brand">
+                <img src="UPB.png">
+                <div class="brand-text">
+                    <h1>Universitas Pelita Bangsa</h1>
+                    <p>Navrida Rully Anastasya</p>
+                </div>
+            </div>
+            <div class="top-links">
+                <a href="#">Beranda</a>
+                <a href="#">Tentang Kami</a>
+                <a href="#">Kontak</a>
+                <a href="#">Login</a>
+            </div>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container nav-container">
+            <ul class="nav-menu">
+                <li><a href="#">Beranda</a></li>
+                <li>
+                    <a href="#">Kategori</a>
+                    <ul>
+                        <li><a href="#">Konsep dan Karakteristik Pemasaran Islami</a></li>
+                        <li><a href="#">Prinsip Pemasaran Islami</a></li>
+                        <li><a href="#">Etika/Akhlak Dalam Pemasaran</a></li>
+                        <li><a href="#">Strategi Dalam Pemasaran</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Artikel Lainnya</a></li>
+            </ul>
+            <div class="search-box">
+                <input type="text" placeholder="Cari artikel...">
+                <button>Cari</button>
+            </div>
+        </div>
+    </nav>
+
+    <div class="main-content">
+        <div class="article-header">
+            <h1>Pemasaran Islam: Strategi Bisnis Berkah dan Beretika</h1>
+            <div class="author">Disusun oleh : Navrida Rully Anastasya</div>
+            <div class="date">Bekasi, 23 Maret 2025</div>
+        </div>
+
+        <div class="image-container">
+            <img src="image.jpg">
+        </div>
+
+        <div class="article-content">
+            <h3>PENGERTIAN PEMASARAN ISLAMI</h3>
+            <p>Pemasaran Islami adalah konsep pemasaran yang berlandaskan nilai-nilai Islam, di mana seluruh proses pemasaran dilakukan sesuai dengan prinsip-prinsip syariah. Pemasaran ini tidak hanya berfokus pada keuntungan duniawi, tetapi juga memperhatikan etika, moral, dan tanggung jawab sosial sesuai dengan ajaran Islam.</p>
+            <p>Pemasaran Islami mencakup kegiatan mengenali, memahami, dan memenuhi kebutuhan serta keinginan konsumen dengan cara yang halal, adil, dan penuh keberkahan. Tujuan akhirnya bukan hanya mendapatkan keuntungan materi, tetapi juga mencapai keberkahan dan ridha Allah SWT.</p>
+            <h3>KONSEP DAN KARAKTERISTIK PEMASARAN ISLAMI</h3>
+            <p>Pemasaran Islami ini ialah pendekatan pemasaran yang berlandaskan nilai-nilai Islam, seperti kejujuran, keadilan, dan keberkahan. Karakteristiknya meliputi </p>
+            <p> <h4>1. Kehalalan produk</h4>Produk yang dipasarkan harus halal dan tidak mengandung unsur haram.  
+            <br><h4>2. Kejujuran dan transparansi</h4>Tidak boleh ada penipuan atau manipulasi dalam pemasaran.  
+            <br><h4>3. Keadilan</h4>Harga dan keuntungan harus wajar serta tidak merugikan pihak lain.  
+            <br><h4>4. Keberkahan</h4>Produk dan layanan harus memberi manfaat bagi masyarakat.  
+            </p>
+            <h3>PRINSIP PEMASARAN ISLAMI</h3>
+            <p>Prinsip utama dalam pemasaran Islami mengacu pada ajaran Al-Qur'an dan hadis, antara lain:  </p>
+            <p> <h4>1. Tauhid (keimanan kepada Allah)</h4>Pemasaran dilakukan dengan niat ibadah dan menjaga kepercayaan kepada Allah. 
+            <br><h4>2. Amanah (kepercayaan dan tanggung jawab)</h4>Menjalankan bisnis dengan penuh tanggung jawab dan menjaga kepercayaan pelanggan.
+            <br><h4>3. Keadilan (tidak zalim)</h4>Menghindari eksploitasi dan menyeimbangkan hak antara penjual dan pembeli.  
+            <br><h4>4. Maslahah (kemanfaatan bagi banyak orang)</h4>Pemasaran harus dilakukan dengan niat mencari keberkahan, bukan sekadar keuntungan duniawi.  
+            <br><h4>5. Ridha (kerelaan antara pihak yang bertransaksi)</h4>Tidak boleh ada unsur paksaan atau penipuan.
+            </p>
+            <h3>ETIKA ATAU AKHLAK DALAM PEMASARAN ISLAMI</h3>
+            <p>Dalam Islam, pemasaran harus dilakukan dengan etika yang baik, di antaranya: </p>
+            <p> <h4>1. Tidak menipu atau berbohong</h4>Informasi produk harus jujur dan tidak menyesatkan. 
+            <br><h4>2. Menghindari riba dan gharar (ketidakpastian)</h4>Transaksi harus jelas dan tidak mengandung unsur yang merugikan salah satu pihak 
+            <br><h4>3. Tidak melakukan eksploitasi atau monopoli</h4>Harus menghindari tindakan yang merugikan pasar dan konsumen.
+            <br><h4>4. Menggunakan strategi promosi yang baik</h4>Tidak boleh menggunakan cara-cara yang merendahkan atau menipu konsumen. 
+            </p>
+            <h3>STARATEGI DALAM PEMASARAN ISLAMI</h3>
+            <p>Strategi pemasaran Islami mencakup pendekatan yang sesuai dengan nilai-nilai Islam, seperti:  </p>
+            <p> <h4>1. Segmentasi pasar berbasis nilai Islam</h4>Menargetkan konsumen yang peduli dengan produk halal dan berkah.  
+            <br><h4>2. Promosi yang etis dan edukatif</h4>Menggunakan media promosi yang tidak menyesatkan, tetapi justru memberi edukasi kepada konsumen.   
+            <br><h4>3. Pelayanan yang baik (ihsan)</h4>Harga dan keuntungan harus wajar serta tidak merugikan pihak lain.  Menjaga kepuasan pelanggan dengan memberikan pelayanan yang ramah dan adil.  
+            <br><h4>4. Menjalin hubungan baik dengan pelanggan</h4>Mengedepankan ukhuwah Islamiyah (persaudaraan dalam Islam) dalam berbisnis.   
+            </p>
+            <P>Pemasaran Islami bukan sekadar menjual produk, tetapi juga mengedepankan nilai-nilai moral dan keberkahan dalam setiap transaksi. Pemasaran Islami bukan hanya sekadar menjual produk, tetapi juga memastikan seluruh proses bisnis dilakukan dengan cara yang halal, jujur, dan adil sesuai dengan ajaran Islam. Dengan menerapkan prinsip-prinsip syariah, bisnis tidak hanya mendapatkan keuntungan finansial tetapi juga keberkahan dalam jangka panjang.</P>
+            <P>Pemasaran Islami bisa menjadi strategi bisnis yang lebih berkelanjutan karena mengutamakan kepercayaan, keadilan, dan kesejahteraan umat. Oleh karena itu, bisnis yang menerapkan konsep ini cenderung mendapatkan loyalitas pelanggan yang lebih kuat serta dampak positif bagi masyarakat luas.</P>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container copyright">
+            <p>&copy; 312310328 - NAVRIDA RULLY ANASTASYA - TI.23.CA.1</p>
+        </div>
+    </footer>
+</body>
+</html>
