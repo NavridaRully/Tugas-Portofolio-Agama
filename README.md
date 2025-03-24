@@ -2,7 +2,7 @@ Nama : Navrida Rully Anastasya
 
 Kelas : TI.23.CA.1
 
-NIM :312310328
+NIM : 312310328
 
 Berikut adalah tampilan website nya :
 
